@@ -1,0 +1,14 @@
+{
+
+"allowedExtensions":[".less"],
+
+"minified" : false,
+
+"sourceMap" : false,
+
+"watchFolder" : "leess",
+
+"outputFolder" : "css"
+
+
+}

@@ -1,0 +1,65 @@
+@background-color: #14a4f4;
+@boja-pozadine: lightgreen;
+@nav-boja:red;
+
+body
+{
+    background-color: @boja-pozadine;
+}
+
+
+
+.nav
+{
+    display: none;
+
+        .li {
+
+        display:inline-block ;
+         width: 40%;
+
+        .hamburger:extend(.li)
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}
+.border-radius(@arg1,@arg2)
+{
+    -webkit-border-radius: @arg1;
+    border-radius: @arg2;
+    -moz-border-radius: @arg2;
+    -khtml-border-radius: @arg2;
+
+}
+.dugme
+{
+    padding: 10px 15px;
+    border: 0;
+    .border-radius(@arg1, @arg2)
+}
+
+ul
+{
+    list-style-type:  none;
+
+            li
+            {
+                display: inline-block;
+                width: 20%;
+                background-color:@nav-boja;
+                height: 40px;
+                margin-top: 50px;
+                margin-left: 20px;
+
+                    a
+                    {
+                        display: block;
+                        color: white;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 30px;
+                        padding: 5 0 ;
+              }
+             }
+            }

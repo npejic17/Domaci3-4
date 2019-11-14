@@ -1,0 +1,428 @@
+
+    #header
+{
+	background-color: #241556;
+    height: 200px;
+    width: 100%;
+}
+
+#prvacelina
+    {
+        
+        height: 400px;
+        background-color: #9999ff;
+        width: 100%;
+       
+    }
+#drugacelina
+    {
+        
+        height: 400px;
+        width: 100%;
+        background-color:#9999ff;
+        
+    }
+#trecacelina
+    {
+        
+        background-color: #9999ff;
+        width: 100%;
+        height: 370px;
+       
+    }
+#footer
+    {
+        margin-top: -20px;
+        color:white;
+        background-color: #241556;
+        width: 100%;
+        height: 120px;
+        
+    }
+#logo
+            {
+                width: 200px;
+                height: 100px;
+                float: left;
+                margin-left: 70px;
+                
+            
+        }
+ 
+body 
+    {
+      background: white;
+      
+    }
+
+#navbar1
+     {
+      max-width: 700px;
+
+      background-color: #241556;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      float: down;
+      margin-left: 200px;
+
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#241556;
+    position: absolute;
+    left: 410px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-size: 20px;
+    border:ridge;
+}
+
+@media only screen and (max-width:800px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+      
+      
+#moto
+    {
+        color:floralwhite;
+        margin-left: 400px;
+        font-size:  30px;
+        margin-top: 150px;
+           
+     
+    }
+        
+#forma
+        {
+        margin-left: 300px;
+        margin-top: 30;
+        }
+    
+#imeprezime{
+        padding: 15px;
+        margin-left: 30px;
+        margin-top: 5px;
+        } 
+#select{
+        padding: 15px;
+        margin-left: 30px;
+        margin-top: 5px;
+        float: right;
+        width: 33%;
+        } 
+#input2{
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+        }     
+ #drugi1{
+        margin-left: 50px;
+        display: inline-block;
+     width: 33%;
+        
+            
+        }
+ #drugi2{
+        margin-left: 10px;
+        display: inline-block;
+        width: 33%;
+        
+     float: left;
+            
+        }
+        
+.proizvod1{
+        margin-left: 90px;
+        display: inline-block;
+           
+           
+        }
+  
+.gradovi{
+        width: 160px;
+        height: 140px;
+        margin-left: 25px;
+        margin-top: 5px;
+        }
+.cena {
+        color: blue;
+        font-size: 22px;
+        text-align: center;
+}
+.button{
+        border: none;
+        outline: 0;
+        padding: 7px;
+        color: white;
+        background-color: #944dff;
+        text-align: center;
+        width: 100%;
+        font-size: 13px;
+        }
+.button:hover{
+         opacity: 0.5;
+        }
+      
+   
+.vesti{
+        margin-left: 7px;
+        font-size: 17px;
+        color: black;
+        display: inline-block;
+        }
+.h4{
+        text-align: center;
+        }
+     
+     
+.vesti1{
+        display: inline-block;
+        margin-left: 35px;
+           
+        width: 300px;
+        }
+.vestiSlike{
+        height: 110px;
+        width: 287px;
+        display: inline-grid;
+        margin-left: 10px;
+        margin-top: 5px;
+        }
+.vestiTekst{
+         display: inline-grid;
+         margin-bottom: 20px;
+         text-align: justify;
+         margin-left: 13px;
+         font-size: 10px;
+        }
+        
+        
+        
+        
+        
+
+            .row > .column {
+                padding: 0 8px;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              .column {
+                float: left;
+                width: 25%;
+              }
+              
+              .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: black;
+              }
+              
+              .modal-content {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 0;
+                width: 90%;
+                max-width: 1200px;
+              }
+              
+              .close {
+                color: white;
+                position: absolute;
+                top: 10px;
+                right: 25px;
+                font-size: 35px;
+                font-weight: bold;
+              }
+              
+              .close:hover,
+              .close:focus {
+                color: #999;
+                text-decoration: none;
+                cursor: pointer;
+              }
+              
+              .mySlides {
+                display: none;
+              }
+              
+              .prev,
+              .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+              }
+              
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              .prev:hover,
+              .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              
+              .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              .caption-container {
+                text-align: center;
+                background-color: black;
+                padding: 2px 16px;
+                color: white;
+              }
+              
+              img.demo {
+                opacity: 0.6;
+              }
+              
+              .active,
+              .demo:hover {
+                opacity: 1;
+              }
+              
+              img.hover-shadow {
+                transition: 0.3s;
+              }
+              
+              .hover-shadow:hover {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              } 
+              
+    
+    
+              #galerijaDiv
+              {
+                  background-color: gray;
+                  margin-top: 10px;
+                 width: max-content;
+                  float: left;
+              }
+    
+    
+    
+    
+              input[type=text], select, textarea{
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+              }
+              
+              label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+              }
+              
+              input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+              }
+              
+              .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+              }
+              
+              .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+              }
+              
+              .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+
+              .dugme,
+              .primarno-dugme{
+                padding: 10px 15px;
+                border: 0;
+                -webkit-border-radius: 100px;
+                border-radius: 50px;
+                -moz-border-radius: 50px;
+                -khtml-border-radius: 50px;
+              }
+              .p{
+                  font-size: 15px;
+              }
+
+              
+          
+            
+
+
+       

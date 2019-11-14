@@ -1,0 +1,456 @@
+#body
+{
+  background-color: #241556;
+}
+        
+        
+        
+        #prvi
+        {
+          background-color: lightskyblue;
+            height: 170px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        #drugi
+        {
+            float: left;
+            height: 570px;
+            width: 50%;
+            margin-bottom: 5px;
+            background-color: gainsboro;
+            margin-left: 4px;
+           
+    
+    
+    
+        }
+        #treci
+        {
+            float: left;
+            height: 570px;
+            width: 49%;
+            background-color:gainsboro;
+           
+            margin-bottom: 5px;
+            margin-left: 5px;
+    
+    
+        }
+        #cetvrti
+        {
+            float: left;
+            background-color: lightgray;
+            width: 100%;
+            height: 500px;
+            margin-bottom: 5px;
+    
+    
+        }
+        #peti
+        {
+            float: left;
+            background-color: lightskyblue;
+             width: 100%;
+            height: 130px;
+            margin-bottom: 5px;
+    
+        }
+        #logo
+                {
+                    width: 20%;
+                    height: 70%;
+                    float: left;
+                    margin-left: 40px;
+                    margin-top: 20px;
+                    position: relative;
+                
+            }
+     
+           
+          
+            body {
+              font-size: 28px;
+            }
+            
+            ul
+{
+    list-style-type:  none;
+}
+ul li
+{
+    display: inline-block;
+    width: 20%;
+    background-color: red;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 5 0 ;
+}
+.hamburger
+{
+  
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+  float: right;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+
+@media only screen and (max-width:800px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+      
+        #slogan{
+                    text-align: center;
+                    font-size:  25px;
+                    color: white;
+                    padding-top: 5px;
+                    width: 100%;
+                   
+         
+            }
+            
+    
+        
+          
+            
+            .drugi1{
+              
+                 width: 50%;
+              position: relative;
+                
+                display: inline-block;
+                
+            }
+             .drugi2{
+               width: 40%;
+                
+                display: inline-block;
+                position: relative;
+                
+            }
+            #futer{
+                margin-left: 30px;
+                font-size: 18px;
+              
+            }
+            
+            .proizvod1{
+               
+                display: inline-block;
+                margin-top: 5px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                width: 23%;
+                padding: 10px;
+                
+            }
+          
+        .pSlike{
+                width: 50%;
+                height: 50%;
+                float: center ;
+                margin-top: 4px;
+                padding-left: 70px;
+            }
+         .price {
+                    color: red;
+                    font-size: 22px;
+                text-align: center;
+    }
+           .button{
+                  border: none;
+                  outline: 0;
+                  padding: 3px;
+                  color: white;
+                  background-color: #000;
+                  text-align: center;
+                  cursor: pointer;
+                  width: 100%;
+                  font-size: 12px;
+            }
+        .button:hover{
+             opacity: 0.7;
+            }
+          
+       
+            .vesti{
+                margin-left: 5px;
+                font-size: 17px;
+                color: blue;
+                display: inline-block;
+            }
+            .h3{
+                text-align: center;
+            }
+            
+            
+            .vesti1{
+                display: inline-block;
+                width: 50%;
+                margin-left: 90px;
+               
+            }
+            .vesti2{
+              display: inline-block;
+              width: 50%;
+              margin-left: 140px;
+             
+          }
+            .vestiSlike{
+                height: 110px;
+                width:60%;
+                display: inline-grid;
+                margin-left: 30px;
+                margin-top: 5px;
+                position: relative;
+            }
+            .vestiText{
+                display: inline-grid;
+                margin-bottom: 20px;
+                text-align: justify;
+                margin-left: 10px;
+                font-size: 12px;
+                position: relative;
+            }
+            .vestiText1{
+                display: inline-grid;
+                margin-bottom: 20px;
+                position: relative;
+                margin-left: 20px;
+                font-size: 20px;
+            }
+            
+    
+    
+    
+            .row > .column {
+                padding: 0 8px;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              .column {
+                float: left;
+                width: 25%;
+              }
+              
+              .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: black;
+              }
+              
+              .modal-content {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 0;
+                width: 90%;
+                max-width: 1200px;
+              }
+              
+              .close {
+                color: white;
+                position: absolute;
+                top: 10px;
+                right: 25px;
+                font-size: 35px;
+                font-weight: bold;
+              }
+              
+              .close:hover,
+              .close:focus {
+                color: #999;
+                text-decoration: none;
+                cursor: pointer;
+              }
+              
+              .mySlides {
+                display: none;
+              }
+              
+              .prev,
+              .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+              }
+              
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              .prev:hover,
+              .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              
+              .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              .caption-container {
+                text-align: center;
+                background-color: black;
+                padding: 2px 16px;
+                color: white;
+              }
+              
+              img.demo {
+                opacity: 0.6;
+              }
+              
+              .active,
+              .demo:hover {
+                opacity: 1;
+              }
+              
+              img.hover-shadow {
+                transition: 0.3s;
+              }
+              
+              .hover-shadow:hover {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              } 
+              
+    
+    
+              #galerijaDiv
+              {
+                  background-color: gray;
+                  margin-top: 10px;
+                 width: max-content;
+                  float: left;
+              }
+    
+    
+    
+    
+              input[type=text], select, textarea{
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+              }
+              
+              label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+              }
+              
+              input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+              }
+              
+              .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+              }
+              
+              .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+              }
+              
+              .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+
+              .dugme,
+              .primarno-dugme{
+                padding: 10px 15px;
+                border: 0;
+                -webkit-border-radius: 100px;
+                border-radius: 50px;
+                -moz-border-radius: 50px;
+                -khtml-border-radius: 50px;
+              }
+              .p{
+                  font-size: 15px;
+              }
+
+              
+          
+            
+            
+            
+            
+            
+            
+    
